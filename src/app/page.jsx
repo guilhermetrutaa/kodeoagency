@@ -70,7 +70,7 @@ const page = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h1 className='font-bold text-[#000]/10 text-[4rem] sm:text-[8rem] md:text-[14rem] pt-12 text-center md:text-left'>SOBRE NÓS</h1>
+            <h1 className='font-bold text-[#000]/10 text-[4rem] sm:text-[8rem] md:text-[14rem] pt-12 text-center md:text-left lg:text-[17.5rem]'>SOBRE NÓS</h1>
           </motion.div>
 
           <motion.div
@@ -79,7 +79,7 @@ const page = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             viewport={{ once: true }}
           >
-            <p className='text-[#000] font-bold text-[1.2rem] md:text-[1.8rem] max-w-[50rem] px-6 md:ml-[10rem] text-justify md:text-left'>Kodeo nasceu em 2025 com a ideia de tornar projetos mais profissionais e organizados em uma agência. Criada por um único desenvolvedor, surgiu para centralizar trabalhos de programação e apresentar tudo em nome de uma marca. A agência desenvolve sites, aplicativos, sistemas e automações, com foco principal em criação de sites. Sua missão é ajudar empresas com tecnologia, porque aqui sua ideia vira projeto.</p>
+            <p className='text-[#000] font-bold text-[1.2rem] md:text-[1.8rem] max-w-[50rem] px-6 md:ml-[10rem] text-justify md:text-left lg:ml-[16rem]'>Kodeo nasceu em 2025 com a ideia de tornar projetos mais profissionais e organizados em uma agência. Criada por um único desenvolvedor, surgiu para centralizar trabalhos de programação e apresentar tudo em nome de uma marca. A agência desenvolve sites, aplicativos, sistemas e automações, com foco principal em criação de sites. Sua missão é ajudar empresas com tecnologia, porque aqui sua ideia vira projeto.</p>
           </motion.div>
         </div>
 
@@ -94,10 +94,10 @@ const page = () => {
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h1 className='font-bold text-[#000]/10 text-[4.5rem] sm:text-[9rem] md:text-[15.1rem] pt-12 text-center md:text-left'>PROJETOS</h1>
+            <h1 className='font-bold text-[#000]/10 text-[4.5rem] sm:text-[9rem] md:text-[15.1rem] pt-12 text-center md:text-left lg:text-[18.9rem]'>PROJETOS</h1>
           </motion.div>
 
-          <div className='px-6 md:ml-[10rem] pt-10'>
+          <div className='px-6 md:ml-[10rem] pt-10 lg:flex lg:justify-center lg:items-center'>
             <div className='flex flex-col lg:flex-row gap-10 md:gap-70'>
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
@@ -145,7 +145,7 @@ const page = () => {
             </div>
           </div>
 
-          <div className='px-6 md:ml-[10rem] pt-10 lg:pt-20'>
+          <div className='px-6 md:ml-[10rem] pt-10 lg:pt-20 lg:flex lg:justify-center lg:items-center'>
             <div className='flex flex-col lg:flex-row gap-10 md:gap-70'>
               <motion.div
                 initial={{ opacity: 0, y: 50 }}
