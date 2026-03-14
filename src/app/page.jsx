@@ -28,8 +28,8 @@ const page = () => {
           <div className='flex flex-col sm:flex-row items-center gap-5'>
             <div>
               <ul className='text-[#000] font-bold flex text-[1.2rem] md:text-[1.5rem] gap-3 cursor-pointer'>
-                <li>Sobre</li>
-                <li>Projetos</li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
               </ul>
             </div>
 
@@ -63,14 +63,14 @@ const page = () => {
           <div className='w-full h-[0.1rem] bg-[#000]/20'></div>
         </div>
 
-        <div>
+        <div id='sobre'>
           <motion.div
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h1 className='font-bold text-[#000]/10 text-[4rem] sm:text-[8rem] md:text-[14rem] pt-12 text-center md:text-left lg:text-[17.5rem]'>SOBRE NÓS</h1>
+            <h1 className='font-bold text-[#000]/10 text-[4rem] sm:text-[8rem] md:text-[14rem] pt-12 text-center md:text-left lg:text-[14rem]'>SOBRE NÓS</h1>
           </motion.div>
 
           <motion.div
@@ -87,14 +87,14 @@ const page = () => {
           <div className='w-full h-[0.1rem] bg-[#000]/20'></div>
         </div>
 
-        <div>
+        <div id='projetos'>
           <motion.div
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
             viewport={{ once: true }}
           >
-            <h1 className='font-bold text-[#000]/10 text-[4.5rem] sm:text-[9rem] md:text-[15.1rem] pt-12 text-center md:text-left lg:text-[18.9rem]'>PROJETOS</h1>
+            <h1 className='font-bold text-[#000]/10 text-[4.5rem] sm:text-[9rem] md:text-[15.1rem] pt-12 text-center md:text-left lg:text-[15.1rem]'>PROJETOS</h1>
           </motion.div>
 
           <div className='px-6 md:ml-[10rem] pt-10 lg:flex lg:justify-center lg:items-center'>
