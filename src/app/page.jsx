@@ -214,8 +214,8 @@ const page = () => {
               <div className='flex flex-col sm:flex-row items-center gap-5'>
                 <div>
                   <ul className='text-[#000] font-bold flex text-[1.2rem] md:text-[1.5rem] gap-3 cursor-pointer'>
-                    <li>Sobre</li>
-                    <li>Projetos</li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                   </ul>
                 </div>
 
